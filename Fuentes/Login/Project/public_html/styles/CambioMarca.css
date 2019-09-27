@@ -1,0 +1,689 @@
+/*.TxtCombob { 
+	background:url('../images/Iconos-14x14-blanco-07.png') no-repeat; 
+	border:none; 
+}*/
+
+.table_principal tr:first-child td, .table_principal tr:first-child th{ 
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.table_principal tr td{
+    padding-top: 1px;
+    padding-bottom: 1px;    
+}
+
+.gris_pares .tr-last-child{
+    border-bottom:1px solid #C0C0C0;
+}
+
+.gris_pares .tr-td-last-child{
+    border-right:1px solid #C0C0C0;
+}
+
+.tr-nth-child-2n-1{    
+    background: #F1F1F1;
+}
+
+.lq-btn {
+	font-family: Mirai_medium;
+	font-size: 13px;
+	padding: 5px 15px 5px 28px !important;
+}
+
+.btn_secundario {
+	font-family: Mirai_medium;
+	font-size: 13px;
+	padding: 5px 15px 5px 28px !important;
+}
+
+.lp-select, .lp-select-pag
+{
+	font-family: Mirai_medium;	
+	margin-right: 7px;
+    margin-left: 0px;
+    /*width: 60px;*/
+    /* height: 18px; */
+    border:1px solid #C0C0C0;
+    color: #606363;
+	font-size: 9pt;
+	/*width: 135px;			*/
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+    -ms-appearance: none;  
+    background:url('../images/icono87c_12.png');     
+    background-position:right;    
+    background-repeat:no-repeat;   
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.lp-select-pag {
+    width: 35px;
+}
+/*Agregar estilo para disabled de select*/
+
+.lp-select::-ms-expand {
+    display: none;    
+}
+
+option:checked, option:hover{
+    color: #FF6A39;
+}
+
+/*option:checked, option:hover, ddlStandar:focus option:checked:hover {
+    color: #FF6A39;
+}*/
+
+.lp-select-multiple
+{
+    font-family: Mirai_medium;  
+    margin-right: 7px;
+    margin-left: 0px;    
+    border:1px solid #C0C0C0;
+    color: #606363;
+    font-size: 9pt;
+    /*width: 135px;         */
+    -webkit-appearance: none;  
+    -moz-appearance: none;
+    -ms-appearance: none;      
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.input_text_sed{
+    height: 18px;
+    padding: 0px 1px;
+}
+.input_text_sed:readonly{
+    color: #C0C0C0;
+    background: #E6E6E6;
+}
+
+.input_text_area{
+    font-family: 'Mirai_regular';
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #C0C0C0;
+}
+.input_text_area:focus{
+    border:1px solid #00CBC1;
+}
+.input_text_area:disabled, .input_text_area:readonly{
+    color: #C0C0C0;
+    background: #E6E6E6;
+}
+
+.row1, .row5 {
+    font-family: 'Mirai_medium';
+    padding-left: 3px; 
+    font-size: 11px;
+    color: #606363;
+}
+
+.lp-glyphicon, .lp-glyphicon-a { 
+    position: relative !important;    
+    background-size: 14px 14px !important;
+    background-repeat: no-repeat !important;
+    background-position: 12px center !important;
+}
+
+.lp-glyphicon-a {    
+    top: 2px;
+    display: inline-block;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 14px;
+    width: 14px;    
+    background-position: center !important;    
+}
+
+.lp-glyphicon-search-color{
+    background: url("../images/Iconos/14x14-color/Iconos-14x14-color-02.png");
+}
+
+.lp-glyphicon-search-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-02.png");    
+}
+
+.lp-glyphicon-search-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-02.png");
+}
+
+.btn_secundario.lp-glyphicon-search-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-02.png") !important;    
+}
+
+.lp-glyphicon-ok-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-06.png");
+}
+
+.lp-glyphicon-ok-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-06.png");    
+}
+
+.lp-glyphicon-ok-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-06.png");
+}
+
+.btn_secundario.lp-glyphicon-ok-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-06.png");    
+}
+
+.lp-glyphicon-print-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-07.png");
+}
+
+.lp-glyphicon-print-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-07.png");    
+}
+
+.lp-glyphicon-print-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-07.png");
+}
+
+.btn_secundario.lp-glyphicon-print-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-07.png");    
+}
+
+.lp-glyphicon-file-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-08.png");
+}
+
+.lp-glyphicon-file-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-08.png");    
+}
+
+.lp-glyphicon-file-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-08.png");
+}
+
+.btn_secundario.lp-glyphicon-file-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-08.png");    
+}
+
+.lp-glyphicon-search-file-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-13.png");
+}
+
+.lp-glyphicon-search-file-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-13.png");    
+}
+
+.lp-glyphicon-search-file-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-13.png");
+}
+
+.btn_secundario.lp-glyphicon-search-file-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-13.png");    
+}
+
+.lp-glyphicon-next-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-20.png");
+}
+
+.lp-glyphicon-next-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-20.png");    
+}
+
+.lp-glyphicon-next-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-20.png");
+}
+
+.btn_secundario.lp-glyphicon-next-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-20.png");    
+}
+
+.lp-glyphicon-previus-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-21.png");
+}
+
+.lp-glyphicon-previus-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-21.png");    
+}
+
+.lp-glyphicon-previus-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-21.png");
+}
+
+.btn_secundario.lp-glyphicon-previus-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-21.png");    
+}
+
+.lp-glyphicon-last-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-36.png");
+}
+
+.lp-glyphicon-last-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-36.png");    
+}
+
+.lp-glyphicon-last-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-36.png");
+}
+
+.btn_secundario.lp-glyphicon-last-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-36.png");    
+}
+
+.lp-glyphicon-first-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-101.png");
+}
+
+.lp-glyphicon-first-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-101.png");    
+}
+
+.lp-glyphicon-first-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-101.png");
+}
+
+.btn_secundario.lp-glyphicon-first-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-101.png");    
+}
+
+.lp-glyphicon-question-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-57.png");
+}
+
+.lp-glyphicon-question-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-57.png");    
+}
+
+.lp-glyphicon-question-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-57.png");
+}
+
+.btn_secundario.lp-glyphicon-question-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-57.png");    
+}
+
+.lp-glyphicon-cancel-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-58.png");
+}
+
+.lp-glyphicon-cancel-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-58.png");    
+}
+
+.lp-glyphicon-cancel-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-58.png");
+}
+
+.btn_secundario.lp-glyphicon-cancel-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-58.png");    
+}
+
+.lp-glyphicon-continue-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-60.png");
+}
+
+.lp-glyphicon-continue-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-60.png");    
+}
+
+.lp-glyphicon-continue-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-60.png");
+}
+
+.btn_secundario.lp-glyphicon-continue-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-60.png");    
+}
+
+.lp-glyphicon-return-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-59.png");
+}
+
+.lp-glyphicon-return-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-59.png");    
+}
+
+.lp-glyphicon-return-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-59.png");
+}
+
+.btn_secundario.lp-glyphicon-return-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-59.png");    
+}
+
+.lp-glyphicon-export-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-91.png");
+}
+
+.lp-glyphicon-export-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-91.png");    
+}
+
+.lp-glyphicon-export-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-91.png");
+}
+
+.btn_secundario.lp-glyphicon-export-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-91.png");    
+}
+
+.lp-glyphicon-calendar-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-99.png");
+}
+
+.lp-glyphicon-calendar-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-99.png");    
+}
+
+.lp-glyphicon-calendar-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-99.png");
+}
+
+.btn_secundario.lp-glyphicon-calendar-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-99.png");    
+}
+
+.lp-glyphicon-dropdown-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-87.png");
+}
+
+.lp-glyphicon-dropdown-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-87.png");    
+}
+
+.lp-glyphicon-dropdown-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-87.png");
+}
+
+.btn_secundario.lp-glyphicon-dropdown-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-87.png");    
+}
+
+.lp-glyphicon-close-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-05.png");
+}
+
+.lp-glyphicon-close-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-05.png");    
+}
+
+.lp-glyphicon-close-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-05.png");
+}
+
+.btn_secundario.lp-glyphicon-close-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-05.png");    
+}
+
+.lp-glyphicon-eye-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-39.png");
+}
+
+.lp-glyphicon-eye-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-39.png");    
+}
+
+.lp-glyphicon-eye-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-39.png");
+}
+
+.btn_secundario.lp-glyphicon-eye-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-39.png");    
+}
+
+.lp-glyphicon-user-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-03.png");
+}
+
+.lp-glyphicon-user-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-03.png");    
+}
+
+.lp-glyphicon-user-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-03.png");
+}
+
+.btn_secundario.lp-glyphicon-user-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-03.png");    
+}
+
+.lp-glyphicon-filter-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-74.png");
+}
+
+.lp-glyphicon-filter-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-74.png");    
+}
+
+.lp-glyphicon-filter-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-74.png");
+}
+
+.btn_secundario.lp-glyphicon-filter-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-74.png");    
+}
+
+.lp-glyphicon-new-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-10.png");
+}
+
+.lp-glyphicon-new-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-10.png");    
+}
+
+.lp-glyphicon-new-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-10.png");
+}
+
+.btn_secundario.lp-glyphicon-new-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-10.png");    
+}
+
+.lp-glyphicon-save-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-11.png");
+}
+
+.lp-glyphicon-save-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-11.png");    
+}
+
+.lp-glyphicon-save-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-11.png");
+}
+
+.btn_secundario.lp-glyphicon-save-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-11.png");    
+}
+
+.lp-glyphicon-clean-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-01.png");
+}
+
+.lp-glyphicon-clean-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-01.png");    
+}
+
+.lp-glyphicon-clean-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-01.png");
+}
+
+.btn_secundario.lp-glyphicon-clean-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-01.png");    
+}
+
+.lp-glyphicon-see-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-61.png");
+}
+
+.lp-glyphicon-see-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-61.png");    
+}
+
+.lp-glyphicon-see-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-61.png");
+}
+
+.btn_secundario.lp-glyphicon-see-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-61.png");    
+}
+
+.lp-glyphicon-add-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-44.png");
+}
+
+.lp-glyphicon-add-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-44.png");    
+}
+
+.lp-glyphicon-add-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-44.png");
+}
+
+.btn_secundario.lp-glyphicon-add-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-44.png");    
+}
+
+.lp-glyphicon-remove-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-45.png");
+}
+
+.lp-glyphicon-remove-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-45.png");    
+}
+
+.lp-glyphicon-remove-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-45.png");
+}
+
+.btn_secundario.lp-glyphicon-remove-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-45.png");    
+}
+
+.lp-glyphicon-edit-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-12.png");
+}
+
+.lp-glyphicon-edit-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-12.png");    
+}
+
+.lp-glyphicon-edit-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-12.png");
+}
+
+.btn_secundario.lp-glyphicon-edit-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-12.png");    
+}
+
+.lp-glyphicon-right-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-49.png");
+}
+
+.lp-glyphicon-right-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-49.png");    
+}
+
+.lp-glyphicon-right-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-49.png");
+}
+
+.btn_secundario.lp-glyphicon-right-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-49.png");    
+}
+
+.lp-glyphicon-left-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-50.png");
+}
+
+.lp-glyphicon-left-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-50.png");    
+}
+
+.lp-glyphicon-left-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-50.png");
+}
+
+.btn_secundario.lp-glyphicon-left-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-50.png");   
+}
+
+.lp-glyphicon-report-color{
+    background-image: url("../images/Iconos/14x14-color/Iconos-14x14-color-56.png");
+}
+
+.lp-glyphicon-report-blanco{
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-56.png");    
+}
+
+.lp-glyphicon-report-gris{
+    background-image: url("../images/Iconos/14x14-gris/Iconos-14x14-gris-56.png");
+}
+
+.btn_secundario.lp-glyphicon-report-color:hover{    
+    background-image: url("../images/Iconos/14x14-blanco/Iconos-14x14-blanco-56.png"); 
+}
+
+@media only screen and (min-width: 1100px) {
+  .login {
+     margin-left: 5%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .login {
+     margin-left: 0;
+  }
+}
+
+.login{
+  background-image:url("../images/newfund.jpg");  
+  background-color:#FFFFFF;
+  background-repeat:no-repeat;    
+  /*background-attachment:fixed;*/
+  background-position: center middle;
+  margin-left: 15%;
+  background-size: 510px 648px;
+}
+
+.login input, label{
+  margin: 3pt;
+  display: inline-block;
+}
+
+.login label{
+  width: 80pt;
+}
+
+.login-logo{
+  width: 200px;
+  height: 70px;
+  border: solid 1px white;
+  position: absolute; 
+  top: 2px; 
+  left: 10%;
+}  
+
+.login-logo img{
+  height: 100%;
+  width: 100%;
+}
+
+.login-content{   
+  font-family: Mirai_regular;
+  color:#606363;
+  top: 130px;
+  left: 65%;
+  position:absolute;
+} 
+
+.login-title{
+  font-family: Mirai_bold;
+  font-size: 27pt;
+  color:#606363;
+}
+
+.login-alert{
+  font-family: Mirai_bold;
+  color: Red;
+  font-size: 10pt;
+}
+
+.texto_general_medium{
+  font-family: Mirai_medium;
+  color:#606363;
+}

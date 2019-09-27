@@ -1,0 +1,81 @@
+.lq-btn {
+    min-width: 60px;
+    padding: 5px 15px 5px 12px;
+}
+
+.btn_secundario{
+    min-width: 70px;   
+}
+
+.lp-glyphicon {     
+    background-size: 14px 14px !important;
+    background-position: 7px center !important;
+}
+
+.lp-select
+{
+    background:none;
+    padding: 0px 0px;
+    color: Black !important;
+}
+
+.lp-select-pag
+{
+    background:none;
+    padding: 0px 0px;
+    color: Black !important;
+}
+
+option {
+	color: Black !important;
+}
+
+.lblCabeceraValor{
+	font-weight: bold;
+}
+
+.tree{
+	font-weight: bold;
+}
+
+input[type=radio] {    
+	-webkit-appearance:inherit;
+    border: inherit;
+}
+
+input[type=radio]:checked{
+	background-image: none;
+}
+
+input[type=radio]:disabled:checked{
+	background-image: none;
+}
+
+.Header {
+    /*FONT-WEIGHT: bolder; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4a749b*/
+    background: #FF6A39 !important;
+    border-right: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 13.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login{
+  background-image:url("../images/newfund.jpg");  
+  background-color:#FFFFFF;  
+  background-repeat:no-repeat;    
+  /*background-attachment:fixed;*/
+  background-position: left;
+}
+
+.menu_active{
+    font-family: 'Mirai_bold' !important;
+    font-weight: bold;
+}
+
+.lp-select-multiple
+{
+    padding: 0px 0px;
+}

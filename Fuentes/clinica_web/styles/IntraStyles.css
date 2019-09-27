@@ -1,0 +1,210 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ffffff; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #a5abbe; SCROLLBAR-3DLIGHT-COLOR: #a5abbe; SCROLLBAR-ARROW-COLOR: #073c68; SCROLLBAR-TRACK-COLOR: #d4d8e4; SCROLLBAR-DARKSHADOW-COLOR: #a5abbe
+}
+BUTTON {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; FONT-SIZE: 9px; BORDER-LEFT: black 1px solid; COLOR: black; BORDER-BOTTOM: black 1px solid; FONT-STYLE: normal; FONT-FAMILY: Arial; HEIGHT: 20px; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+TABLE.Menu {
+	FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+BODY.ColorMenu {
+	BACKGROUND-COLOR: #6190bb
+}
+TABLE.Menu TD.Celda {
+	BORDER-RIGHT: #19497c 1px double; BORDER-TOP: #729fc8 1px double; PADDING-LEFT: 3px; BORDER-LEFT: #19497c 1px double; BORDER-BOTTOM: #19497c 1px double; BACKGROUND-COLOR: #4a749b
+}
+TABLE.Menu A {
+	FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TABLE.Menu A:hover {
+	FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+A {
+	FONT-SIZE: 6.5pt; COLOR: black; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+FONT.Txt {
+	FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana
+}
+TABLE.Menu TR.Fila {
+	BORDER-RIGHT: #19497c 1px double; BORDER-LEFT: #19497c 1px double; BORDER-BOTTOM: #19497c 1px double
+}
+TABLE.Menu TD.Celda1 {
+	BORDER-RIGHT: #19497c 1px double; BORDER-LEFT: #19497c 1px double; BORDER-BOTTOM: #19497c 1px double; BACKGROUND-COLOR: #6b9ac5
+}
+BODY.Calendario {
+	BACKGROUND-COLOR: #6b9ac5
+}
+BODY.Main {
+	FONT-SIZE: 0pt; COLOR: black; FONT-FAMILY: Verdana
+}
+BODY.Main TD.Tab {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4a749b
+}
+BODY.Main .Marco {
+	BORDER-RIGHT: black 1px double; BORDER-TOP: black 1px double; BORDER-LEFT: black 1px double
+}
+BODY.Cabecera {
+	
+}
+BODY.Main A {
+	FONT-SIZE: 7pt; COLOR: #1a579c; FONT-FAMILY: Verdana
+}
+BODY.Main A:hover {
+	COLOR: #1a579c; TEXT-DECORATION: underline
+}
+BODY.Main .FontFecha {
+	FONT-SIZE: 7pt; COLOR: #858484; FONT-STYLE: italic; FONT-FAMILY: Verdana
+}
+BODY.Main .Importante {
+	FONT-SIZE: 7pt; COLOR: red; FONT-FAMILY: Verdana
+}
+BODY.Main .FontDetalle {
+	FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana
+}
+TABLE.2 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px; CELLSPACING: 2px; BGCOLOR: #FFFFFF; CELLPADDING: 2px
+}
+TABLE.2 .Footer {
+	/*BORDER-RIGHT: #b2cfe7 1px double; */
+  PADDING-RIGHT: 3px; FONT-SIZE: 7pt; COLOR: black; 
+  /*BORDER-BOTTOM: #b2cfe7 1px double; */
+  FONT-FAMILY: Verdana; BACKGROUND-COLOR: #9abee6
+}
+TABLE.2 .Header {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4a749b
+}
+TABLE.2 .Header A:hover {
+	FONT-WEIGHT: bolder; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+TABLE.2 .Row1 {
+	PADDING-LEFT: 3px; FONT-SIZE: 7pt; COLOR: black; /*BORDER-BOTTOM: #b3d7f4 1px double;*/ FONT-FAMILY: Verdana; /*BACKGROUND-COLOR: #eff7fd; */TEXT-DECORATION: none
+}
+TABLE.2 .Row8 {
+	PADDING-LEFT: 3px; FONT-SIZE: 6.5pt; COLOR: black; BORDER-BOTTOM: #b3d7f4 1px double; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #eff7fd; TEXT-DECORATION: none
+}
+TABLE.2 .Row6 {
+	PADDING-LEFT: 3px; FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #eff7fd; TEXT-DECORATION: none
+}
+TABLE.2 .Row5 {
+	PADDING-LEFT: 3px; FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TABLE.2 .Row3 {
+	PADDING-LEFT: 3px; FONT-SIZE: 8pt; COLOR: black; BORDER-BOTTOM: #b3d7f4 1px double; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #eff7fd; TEXT-DECORATION: none
+}
+TABLE.2 .Row1 A {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+
+TABLE.2 .Row1 A:hover {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+TABLE.2 .Row2 {
+	PADDING-LEFT: 3px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #b3d7f4 1px double; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+TABLE.2 .Row4 {
+	PADDING-LEFT: 3px; FONT-SIZE: 3pt; PADDING-BOTTOM: 2px; COLOR: black; PADDING-TOP: 2px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+TABLE.2 .Row2 A {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+
+TABLE.2 .Row7 {
+	PADDING-LEFT: 3px; FONT-SIZE: 8pt; PADDING-BOTTOM: 2px; COLOR: #4a749b; PADDING-TOP: 2px; FONT-FAMILY: Verdana; BACKGROUND-COLOR: white; TEXT-DECORATION: none
+}
+
+
+TABLE.2 .Row2 A:hover {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+
+TABLE.2 .Row8 A {
+	COLOR: #1a579c; FONT-FAMILY: FONT-SIZE: 6.5pt; Verdana; TEXT-DECORATION: none
+}
+TABLE.2 .Row8 A:hover {
+	COLOR: #1a579c; FONT-FAMILY: FONT-SIZE: 6.5pt; Verdana; TEXT-DECORATION: underline
+}
+
+TABLE.2 A {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TABLE.1 {
+	
+}
+TABLE.2 .Header A {
+	FONT-WEIGHT: bolder; FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+TABLE.1 .ColorLine {
+	COLOR: #4a749b
+}
+TABLE.1 .PageInfo {
+	BORDER-RIGHT: #1d5696 1px double; BORDER-TOP: #1c355e 1px double; FONT-SIZE: 7pt; BORDER-LEFT: #1c355e 1px double; COLOR: white; BORDER-BOTTOM: #1d5696 1px double; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4f80ad
+}
+TABLE.1 .Search {
+	BACKGROUND-COLOR: #e7ebf1
+}
+TABLE.1 .TxtCab {
+	COLOR: #6f7480; FONT-FAMILY: Verdana
+}
+TABLE.1 .TxtDet {
+	FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: Verdana
+}
+TABLE.2 .Footer A {
+	COLOR: black; FONT-FAMILY: Verdana
+}
+TABLE.2 .Footer A:hover {
+	COLOR: black; TEXT-DECORATION: underline
+}
+/*TABLE.2 .TxtCombo {
+	FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana
+}*/
+TABLE.2 .TxtCombob {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; BORDER-LEFT-COLOR: white; BORDER-BOTTOM-COLOR: white; COLOR: white; BORDER-TOP-COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4a749b; BORDER-RIGHT-COLOR: white
+}
+TABLE.2 .TxtCombor {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; BORDER-LEFT-COLOR: white; BORDER-BOTTOM-COLOR: white; COLOR: white; BORDER-TOP-COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: red; BORDER-RIGHT-COLOR: white
+}
+TABLE.2 .TxtCombov {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; BORDER-LEFT-COLOR: white; BORDER-BOTTOM-COLOR: white; BORDER-TOP-COLOR: white; FONT-FAMILY: Verdana; BORDER-RIGHT-COLOR: white
+}
+TABLE.2 .Tab1 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #4a749b
+}
+TABLE.2 .Tab2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; COLOR: #4a749b; FONT-FAMILY: Verdana
+}
+TABLE.2 .Asterisco {
+	FONT-SIZE: 7pt; COLOR: red; FONT-FAMILY: Verdana
+}
+BODY.Cabecera TD.Txt {
+	FONT-WEIGHT: bolder; FONT-SIZE: 7pt; COLOR: black; FONT-FAMILY: Verdana
+}
+BODY.Cabecera TD.Txt A {
+	COLOR: black
+}
+.FontAdmin {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Verdana
+}
+.FontAdmin A {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.FontAdmin A:hover {
+	COLOR: #1a579c; FONT-FAMILY: Verdana; TEXT-DECORATION: underline
+}
+.FontAdmin A:active {
+	COLOR: #e58801
+}
+BODY.Iconos {
+	BACKGROUND-COLOR: #9abee6
+}
+BODY.Iconos .ColorTable {
+	BORDER-RIGHT: #c9e3f7 1px double; FONT-SIZE: 10px; COLOR: black; BORDER-BOTTOM: #c9e3f7 1px groove; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffffff
+}
+BODY.Main TD.Tab A {
+	FONT-WEIGHT: bolder; FONT-SIZE: 6.5pt; COLOR: white; FONT-FAMILY: Verdana
+}
+BODY.Main TD.Tab A:hover {
+	COLOR: #8fb8e6
+}
+TABLE.2 .Calendario {
+	BORDER-RIGHT: #b3d7f4 1px double; FONT-SIZE: 7pt; COLOR: black; BORDER-BOTTOM: #b3d7f4 1px double; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #eff7fd
+}

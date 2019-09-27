@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <description>Empty web.xml file for Web Application</description>
+  <listener>
+    <listener-class>com.clinica.controller.ProcesoListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>ProcesoAtencion</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoAtencion</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoAcceso</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoAcceso</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoValida</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoValida</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoSolicitud</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoSolicitud</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoUpload</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SessionClean</servlet-name>
+    <servlet-class>com.clinica.controller.SessionClean</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoMant</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoMant</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcesoXML</servlet-name>
+    <servlet-class>com.clinica.controller.ProcesoXML</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <url-pattern>/control/ProcesoAcceso</url-pattern>    
+    <servlet-name>ProcesoAcceso</servlet-name>
+  </servlet-mapping>
+  <servlet-mapping>
+    <url-pattern>/servlet/ProcesoAtencion</url-pattern>    
+    <servlet-name>ProcesoAtencion</servlet-name>
+  </servlet-mapping>
+  <servlet-mapping>
+    <url-pattern>/servlet/ProcesoValida</url-pattern>    
+    <servlet-name>ProcesoValida</servlet-name>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <url-pattern>/servlet/ProcesoSolicitud</url-pattern>    
+    <servlet-name>ProcesoSolicitud</servlet-name>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <url-pattern>/servlet/SessionClean</url-pattern>    
+    <servlet-name>SessionClean</servlet-name>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <url-pattern>/servlet/ProcesoMant</url-pattern>    
+    <servlet-name>ProcesoMant</servlet-name>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <url-pattern>/servlet/ProcesoXML</url-pattern>
+    <servlet-name>ProcesoXML</servlet-name>
+  </servlet-mapping>
+   
+  <session-config>
+    <session-timeout>60</session-timeout>
+  </session-config>  
+  
+  
+    <mime-mapping>
+        <extension>pptx</extension>
+        <mime-type>application/vnd.openxmlformats-officedocument.presentationml.presentation</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+        <extension>docx</extension>
+        <mime-type>application/vnd.openxmlformats-officedocument.wordprocessingml.document</mime-type>
+    </mime-mapping>
+    <mime-mapping>
+        <extension>xlsx</extension>
+        <mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime-type>
+    </mime-mapping>
+  
+  <mime-mapping>
+    <extension>html</extension>
+    <mime-type>text/html</mime-type>
+  </mime-mapping>
+  <mime-mapping>
+    <extension>txt</extension>
+    <mime-type>text/plain</mime-type>
+  </mime-mapping>
+  
+  
+  
+  <welcome-file-list>
+    <welcome-file>Index.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>
